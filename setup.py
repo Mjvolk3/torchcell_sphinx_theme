@@ -30,8 +30,8 @@ setup(
     author_email='team@pyg.org',
     url='https://github.com/pyg-team/torchcell_sphinx_theme',
     install_requires=[
-        'sphinx==5.1.1',
-        'sphinx_rtd_theme>=1.0',
+        'sphinx>=7',
+        'sphinx_rtd_theme>=3.0',
         'nbsphinx',
     ],
     package_data={
